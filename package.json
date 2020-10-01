@@ -4,6 +4,7 @@
   "description": "Some snippets in CloudCannon",
   "version": "0.0.1",
   "private": true,
+  "icon": "./icon.png",
   "scripts": {
     "deploy": "vsce publish"
   },
