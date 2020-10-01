@@ -1,0 +1,25 @@
+{
+  "name": "cloudcannon-snippets",
+  "displayName": "Snippets by CloudCannon",
+  "description": "Some snippets in CloudCannon",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "deploy": "vsce publish"
+  },
+  "engines": {
+    "vscode": "^1.49.0"
+  },
+  "publisher": "CloudCannon",
+  "categories": [
+    "Snippets"
+  ],
+  "repository": "https://github.com/CloudCannon/snippets",
+  "contributes": {
+    "snippets": [
+      {
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
