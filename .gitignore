@@ -1,2 +1,4 @@
 node_modules
 *.vsix
+
+snippet-maker/dist/
