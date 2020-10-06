@@ -25,7 +25,7 @@ async function run() {
     console.log("Processing snippets...");
     const srcDir = cli.flags.src ?? ".";
     const outDir: string =
-      (cli.flags.out as string) ?? path.resolve(".", "dist");
+      (cli.flags.outDir as string) ?? path.resolve(".", "dist");
 
     const files = await new Promise<Array<string>>((resolve, reject) =>
       glob(`${srcDir}/**/*.snippet.toml`, (err, files) => {
@@ -44,12 +44,13 @@ async function run() {
       const data = fs.readFileSync(file).toString();
       const mytoml = toml.parse(data);
 
-      mytoml.body = mytoml.body.split("\n");
+      for (const [name, data] of Object.entries(mytoml)) {
+        (data as any).body = (data as any).body.split("\n");
 
-      const basename = path.basename(file);
-      snippetObj[basename] = {
-        ...mytoml,
-      };
+        snippetObj[name] = {
+          ...(data as any),
+        };
+      }
     }
 
     if (!fs.existsSync(outDir)) {

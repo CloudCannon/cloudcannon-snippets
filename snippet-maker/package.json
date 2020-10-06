@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "bin": "dist/index.js",
   "scripts": {
-    "test": "npm run build && node dist/index.js",
+    "test": "npm run build && node dist/index.js --- --outDir example-out",
     "start": "tsc --watch",
     "build": "tsc",
     "prepublishOnly": "npm run build"
