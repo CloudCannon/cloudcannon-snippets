@@ -45,7 +45,6 @@ async function run() {
       const mytoml = toml.parse(data);
 
       for (const [name, data] of Object.entries(mytoml)) {
-        console.log(name);
         (data as any).body = (data as any).body.split("\n");
 
         snippetObj[name] = {
