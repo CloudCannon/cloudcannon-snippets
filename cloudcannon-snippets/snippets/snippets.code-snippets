@@ -1,5 +1,5 @@
 {
-  "component": {
+  "emotion-component": {
     "scope": "typescriptreact",
     "prefix": ["emotion-component"],
     "body": [
@@ -42,7 +42,7 @@
       " *  A ${1:Component} component.",
       " */",
       "const ${1:Component}: React.FC<${1:Component}Props> = (props) => {",
-      "  return <div css={css``}>${1:Component} component</div>",
+      "  return <div>${1:Component} component</div>",
       "}",
       "",
       "export default ${1:Component};"

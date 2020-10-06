@@ -2,11 +2,12 @@
   "name": "cloudcannon-snippets",
   "displayName": "Snippets by CloudCannon",
   "description": "Some snippets in CloudCannon",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "private": true,
   "icon": "icon.png",
   "scripts": {
-    "deploy": "vsce publish"
+    "build": "snippet-maker",
+    "deploy": "npm run build && vsce publish"
   },
   "engines": {
     "vscode": "^1.49.0"
@@ -19,8 +20,11 @@
   "contributes": {
     "snippets": [
       {
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./dist/snippets.code-snippets"
       }
     ]
+  },
+  "dependencies": {
+    "snippet-maker": "^1.0.4"
   }
 }
