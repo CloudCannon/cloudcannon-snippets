@@ -21,6 +21,7 @@ body = """
 
   export default ${1:Component}
 """
+
 [react-emotion]
 scope = "typescriptreact"
 prefix = ["emotion-component"]
