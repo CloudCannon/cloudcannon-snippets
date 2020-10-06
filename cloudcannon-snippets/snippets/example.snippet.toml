@@ -1,3 +1,4 @@
+[default]
 scope = "typescriptreact"
 prefix = ["emotion-component"]
 description = "Creates a quick emotion component"
@@ -21,6 +22,28 @@ body = """
   }
 
   export default ${1:Component}
-  ],
-  "description": "Creates a quick emotion component"
+"""
+
+[react]
+scope = "typescriptreact"
+prefix = ["component"]
+description = "Creates a quick general react component"
+body = """
+  import React from \"react\";
+
+  /**
+   * Interface for ${1:Component} props
+   */
+  export interface ${1:Component}Props {
+    children?: any;
+  };
+
+  /**
+   *  A ${1:Component} component.
+   */
+  const ${1:Component}: React.FC<${1:Component}Props> = (props) => {
+    return <div>${1:Component} component</div>
+  }
+
+  export default ${1:Component}
 """
