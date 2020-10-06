@@ -1,5 +1,5 @@
 {
-  "component": {
+  "emotion-component": {
     "scope": "typescriptreact",
     "prefix": ["emotion-component"],
     "body": [

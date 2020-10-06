@@ -22,5 +22,8 @@
         "path": "./snippets/snippets.code-snippets"
       }
     ]
+  },
+  "dependencies": {
+    "snippet-maker": "^1.0.0"
   }
 }

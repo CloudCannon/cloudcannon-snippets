@@ -1,6 +1,8 @@
+[emotion-component]
 scope = "typescriptreact"
 prefix = ["emotion-component"]
-snippet_text = """
+description = "Creates a quick emotion component"
+body = """
   /** @jsx jsx */
   import { css, jsx } from \"@emotion/core\"
   import React from \"react\"
@@ -20,6 +22,4 @@ snippet_text = """
   }
 
   export default ${1:Component}
-  ],
-  "description": "Creates a quick emotion component"
 """
