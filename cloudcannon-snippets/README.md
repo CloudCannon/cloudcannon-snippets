@@ -1,5 +1,5 @@
 <p align="center" style="margin: -50px 0">
-  <img alt="CloudCannon snippets" src="../brand.png" width="400">
+  <img alt="CloudCannon snippets" src="brand.png" width="400">
 </p>
 
 <h1 align="center" style="font-size: 60px; font-weight: bold;">CloudCannon Snippets</h1>
