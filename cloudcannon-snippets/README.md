@@ -1,4 +1,8 @@
-# CloudCannon Snippets
+<p align="center" style="margin-bottom: 40px">
+  <img alt="Lerna" src="https://d1qmdf3vop2l07.cloudfront.net/salmon-worm.cloudvent.net/compressed/_min_/325ce386c7ac9e3fa64335c5d36f2e16.svg" width="280">
+</p>
+
+<h1 align="center" style="font-size: 50px; font-weight: bold;">CloudCannon Snippets</h1>
 
 Features the following snippets:
 
