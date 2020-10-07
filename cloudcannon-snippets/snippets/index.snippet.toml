@@ -1,6 +1,6 @@
 [react]
 scope = "typescriptreact"
-prefix = ["component"]
+prefix = ["react-component"]
 description = "Creates a quick general React component"
 body = """
   import React from \"react\";
@@ -24,7 +24,7 @@ body = """
 
 [react-emotion]
 scope = "typescriptreact"
-prefix = ["emotion-component"]
+prefix = ["react-emotion-component"]
 description = "Creates a quick emotion component"
 body = """
   /** @jsx jsx */
@@ -52,8 +52,8 @@ body = """
 prefix = ["svg-background"]
 description = "Creates an svg background image in sass/css"
 body = """
-  mask: url(${1:Component}) no-repeat 0 0/contain;
-  -webkit-mask: url(${1:Component}) no-repeat 0 0/contain;
+  mask: url(${1:path}) no-repeat 0 0/contain;
+  -webkit-mask: url(${1:path}) no-repeat 0 0/contain;
   background-image: unset;
   background-color: currentColor;
   background-repeat: no-repeat;
