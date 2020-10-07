@@ -1,0 +1,7 @@
+{
+  "packages": [
+    "cloudcannon-snippets",
+    "snippet-maker"
+  ],
+  "version": "independent"
+}
