@@ -12,8 +12,16 @@ Features the following snippets:
 
 - **react-emotion-component** - Creates a quick emotion component
 
-
 ## Usage
 
 Install the extension, and then you will have access to the snippets :).
 
+## Local development
+
+You can create a snippet in `snippets/index.snippet.toml`, and then run `npm run build`. 
+This will create a new snippet in `dist/snippets.code-snippets` which you can copy and paste
+into your [user snippets folder](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_create-your-own-snippets).
+
+You will then be able to run the snippets locally.
+
+If you are happy with the snippet, create a PR for it :).
