@@ -23,6 +23,3 @@ npm run build
 
 More details are in the README in cloudcannon-snippets.
 
-## Deployment
-
-Update the packaand `
