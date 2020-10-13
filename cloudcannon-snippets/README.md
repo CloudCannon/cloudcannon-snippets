@@ -10,14 +10,17 @@ Features the following snippets (type the text in bold in your editor)
 
 
 <!-- AUTO-GENERATED-CONTENT:START (API) -->
+### React
 - **'react-component'** - Creates a quick general React component
-
-- **'class' or 'typescript-class'** - Creates a quick typescript class
-
 - **'react-emotion-component'** - Creates a quick emotion component
 
+### Typescript
+- **'class' or 'typescript-class'** - Creates a quick typescript class
+
+### SASS
 - **'svg-background'** - Creates an svg background image in sass/css
 
+### Webpack
 - **'react-webpack'** - A webpack starter for React projects
 <!-- AUTO-GENERATED-CONTENT:END (API) --> 
 

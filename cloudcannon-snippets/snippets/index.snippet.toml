@@ -2,6 +2,7 @@
 scope = "typescriptreact"
 prefix = ["react-component"]
 description = "Creates a quick general React component"
+category = "React"
 body = """
   import React from \"react\";
 
@@ -26,6 +27,7 @@ body = """
 scope = "typescript"
 prefix = ["class", "typescript-class"]
 description = "Creates a quick typescript class"
+category = "Typescript"
 body = """
   /**
    *  A ${1:Component}.
@@ -40,6 +42,7 @@ body = """
 scope = "typescriptreact"
 prefix = ["react-emotion-component"]
 description = "Creates a quick emotion component"
+category = "React"
 body = """
   /** @jsx jsx */
   import { css, jsx } from \"@emotion/core\";
@@ -65,6 +68,7 @@ body = """
 [sass-background]
 prefix = ["svg-background"]
 description = "Creates an svg background image in sass/css"
+category = "SASS"
 body = """
   mask: url(${1:path}) no-repeat 0 0/contain;
   -webkit-mask: url(${1:path}) no-repeat 0 0/contain;
@@ -78,6 +82,7 @@ body = """
 [webpack]
 prefix = ["react-webpack"]
 description = "A webpack starter for React projects"
+category = "Webpack"
 body = """
   const nodeExternals = require("webpack-node-externals");
   const path = require("path");
