@@ -4,17 +4,24 @@
 
 <h1 align="center" style="font-size: 60px; font-weight: bold;">CloudCannon Snippets</h1>
 
-Features the following snippets:
+## Snippets
 
-### SASS
+Features the following snippets (type the text in bold in your editor)
 
-- **svg-background** - Creates an svg background image in sass/css
 
-### React
+<!-- AUTO-GENERATED-CONTENT:START (API) -->
+- **'react-component'** - Creates a quick general React component
 
-- **react-component** - Creates a quick general React component
+- **'class' or 'typescript-class'** - Creates a quick typescript class
 
-- **react-emotion-component** - Creates a quick emotion component
+- **'react-emotion-component'** - Creates a quick emotion component
+
+- **'svg-background'** - Creates an svg background image in sass/css
+
+- **'react-webpack'** - A webpack starter for React projects
+<!-- AUTO-GENERATED-CONTENT:END (API) --> 
+
+
 
 ## Usage
 
@@ -29,3 +36,4 @@ into your [user snippets folder](https://code.visualstudio.com/docs/editor/userd
 You will then be able to run the snippets locally.
 
 If you are happy with the snippet, create a PR for it :).
+

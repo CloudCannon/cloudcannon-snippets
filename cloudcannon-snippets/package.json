@@ -6,7 +6,7 @@
   "private": true,
   "icon": "icon.png",
   "scripts": {
-    "build": "snippet-maker",
+    "build": "snippet-maker && md-magic --path 'README.md'",
     "deploy": "npm run build && vsce publish"
   },
   "engines": {
@@ -25,6 +25,8 @@
     ]
   },
   "dependencies": {
-    "snippet-maker": "^1.0.4"
+    "markdown-magic": "^1.0.0",
+    "snippet-maker": "^1.0.4",
+    "toml": "^3.0.0"
   }
 }

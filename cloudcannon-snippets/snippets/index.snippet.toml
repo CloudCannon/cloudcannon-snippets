@@ -22,6 +22,20 @@ body = """
   export default ${1:Component}
 """
 
+[typescript-class]
+scope = "typescript"
+prefix = ["class", "typescript-class"]
+description = "Creates a quick typescript class"
+body = """
+  /**
+   *  A ${1:Component}.
+   */
+
+  export default class ${1:Component} {
+    
+  }
+"""
+
 [react-emotion]
 scope = "typescriptreact"
 prefix = ["react-emotion-component"]
