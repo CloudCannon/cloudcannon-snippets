@@ -1,7 +1,7 @@
 {
   "name": "snippet-maker",
   "version": "1.0.8",
-  "description": "",
+  "description": "A package that ",
   "main": "dist/index.js",
   "bin": "dist/index.js",
   "scripts": {
