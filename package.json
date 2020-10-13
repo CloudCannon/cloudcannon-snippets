@@ -4,5 +4,8 @@
   "devDependencies": {
     "lerna": "^3.22.1",
     "magic-memo": "^1.0.3"
+  },
+  "dependencies": {
+    "yargs-parser": "^20.2.1"
   }
 }

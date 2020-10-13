@@ -4,9 +4,10 @@
   "description": "Some snippets in CloudCannon",
   "version": "0.2.2",
   "icon": "icon.png",
+  "private": true,
   "scripts": {
     "build": "snippet-maker && md-magic --path 'README.md'",
-    "prepublishOnly": "npm run build && vsce publish"
+    "deploy": "npm run build && vsce publish"
   },
   "engines": {
     "vscode": "^1.49.0"
@@ -25,7 +26,10 @@
   },
   "dependencies": {
     "markdown-magic": "^1.0.0",
-    "snippet-maker": "^1.0.7",
-    "toml": "^3.0.0"
-  }
+    "snippet-maker": "^1.0.4",
+    "toml": "^3.0.0",
+    "typescript": "^4.0.3",
+    "vsce": "^1.81.1"
+  },
+  "gitHead": "1eb26abc2ad89481410bd01daf4b27a9c50881fa"
 }

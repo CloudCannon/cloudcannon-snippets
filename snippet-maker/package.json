@@ -19,6 +19,8 @@
     "@types/glob": "^7.1.3",
     "glob": "^7.1.6",
     "meow": "^7.1.1",
-    "toml": "^3.0.0"
-  }
+    "toml": "^3.0.0",
+    "yargs-parser": "^20.2.1"
+  },
+  "gitHead": "1eb26abc2ad89481410bd01daf4b27a9c50881fa"
 }

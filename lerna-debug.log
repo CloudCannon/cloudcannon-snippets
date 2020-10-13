@@ -1,0 +1,8 @@
+37 warn complete Waiting for 1 child process to exit. CTRL-C to exit immediately.
+38 error Error: Command failed: git tag cloudcannon-snippets@0.2.1 -m cloudcannon-snippets@0.2.1
+38 error fatal: tag 'cloudcannon-snippets@0.2.1' already exists
+38 error
+38 error     at makeError (/Users/Robbie/.nvm/versions/node/v12.14.1/lib/node_modules/lerna/node_modules/execa/index.js:174:9)
+38 error     at /Users/Robbie/.nvm/versions/node/v12.14.1/lib/node_modules/lerna/node_modules/execa/index.js:278:16
+38 error     at processTicksAndRejections (internal/process/task_queues.js:94:5)
+38 error     at async Promise.all (index 0)
