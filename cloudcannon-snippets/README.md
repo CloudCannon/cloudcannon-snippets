@@ -24,8 +24,6 @@ Features the following snippets (type the text in bold in your editor)
 - **'react-webpack'** - A webpack starter for React projects
 <!-- AUTO-GENERATED-CONTENT:END (API) --> 
 
-
-
 ## Usage
 
 Install the extension, and then you will have access to the snippets :).
@@ -40,3 +38,7 @@ You will then be able to run the snippets locally.
 
 If you are happy with the snippet, create a PR for it :).
 
+## Deploy
+
+* Run `lerna version patch` for a patch
+* Run `lerna publish`

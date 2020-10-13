@@ -7,7 +7,7 @@
   "icon": "icon.png",
   "scripts": {
     "build": "snippet-maker && md-magic --path 'README.md'",
-    "deploy": "npm run build && vsce publish"
+    "prepublishOnly": "npm run build && vsce publish"
   },
   "engines": {
     "vscode": "^1.49.0"
