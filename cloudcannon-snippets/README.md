@@ -19,6 +19,7 @@ Features the following snippets (type the text in bold in your editor)
 
 ### SASS
 - **'svg-background'** - Creates an svg background image in sass/css
+- **'skeleton' or 'spooky-scary-skeletons'** - Creates a CSS/SASS skeleton
 
 ### Webpack
 - **'react-webpack'** - A webpack starter for React projects
@@ -40,5 +41,5 @@ If you are happy with the snippet, create a PR for it :).
 
 ## Deploy
 
-* Run `lerna version patch` for a patch
+* Run `np patch` for a patch
 * Run `npm run deploy`

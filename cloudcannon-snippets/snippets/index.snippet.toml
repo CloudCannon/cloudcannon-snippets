@@ -87,7 +87,7 @@ body = """
   background-color: gray;
   width: ${1:width};
   height: ${2:height};
-  border-radius: ${2:border-radius};
+  border-radius: ${3:border-radius};
 
   background-color: #ccc;
   overflow: hidden;
