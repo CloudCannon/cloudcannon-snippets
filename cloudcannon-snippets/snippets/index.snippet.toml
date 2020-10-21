@@ -79,6 +79,30 @@ body = """
   will-change: mask,-webkit-mask;
 """
 
+[sass-media]
+prefix = ["media"]
+description = "Creates a media query"
+category = "SASS"
+body = """
+  @media screen and (max-width: ${1:width}px) {
+    
+  }
+"""
+
+[svg-background]
+prefix = ["svg-background"]
+description = "Creates an svg background image in sass/css"
+category = "SASS"
+body = """
+  mask: url(${1:path}) no-repeat 0 0/contain;
+  -webkit-mask: url(${1:path}) no-repeat 0 0/contain;
+  background-image: unset;
+  background-color: currentColor;
+  background-repeat: no-repeat;
+  background-size: contain;
+  will-change: mask,-webkit-mask;
+"""
+
 [sass-skeleton]
 prefix = ["skeleton", "spooky-scary-skeletons"]
 description = "Creates a CSS/SASS skeleton"

@@ -19,6 +19,8 @@ Features the following snippets (type the text in bold in your editor)
 
 ### SASS
 - **'svg-background'** - Creates an svg background image in sass/css
+- **'media'** - Creates a media query
+- **'svg-background'** - Creates an svg background image in sass/css
 - **'skeleton' or 'spooky-scary-skeletons'** - Creates a CSS/SASS skeleton
 
 ### Webpack
