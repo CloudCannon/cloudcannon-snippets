@@ -7,6 +7,7 @@
   "private": true,
   "scripts": {
     "build": "snippet-maker && md-magic --path 'README.md'",
+    "test": "",
     "deploy": "npm run build && vsce publish"
   },
   "engines": {
