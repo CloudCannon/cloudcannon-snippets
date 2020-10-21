@@ -23,6 +23,7 @@ Features the following snippets (type the text in bold in your editor)
 
 ### Webpack
 - **'react-webpack'** - A webpack starter for React projects
+- **'webpack-umd' or 'react-webpack-umd'** - A webpack starter compiling to UMD
 <!-- AUTO-GENERATED-CONTENT:END (API) --> 
 
 ## Usage

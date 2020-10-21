@@ -1,6 +1,9 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "deploy": "cd cloudcannon-snippets && npm run deploy"
+  },
   "devDependencies": {
     "lerna": "^3.22.1",
     "magic-memo": "^1.0.3"
