@@ -73,7 +73,7 @@ body = """
   mask: url(${1:path}) no-repeat 0 0/contain;
   -webkit-mask: url(${1:path}) no-repeat 0 0/contain;
   background-image: unset;
-  background-color: currentColor;
+  background-color: ${2:color};
   background-repeat: no-repeat;
   background-size: contain;
   will-change: mask,-webkit-mask;
