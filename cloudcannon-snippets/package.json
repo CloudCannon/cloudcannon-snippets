@@ -2,7 +2,7 @@
   "name": "cloudcannon-snippets",
   "displayName": "Snippets by CloudCannon",
   "description": "Some snippets in CloudCannon",
-  "version": "0.2.8",
+  "version": "0.3.0",
   "icon": "icon.png",
   "private": true,
   "scripts": {
@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "markdown-magic": "^1.0.0",
-    "snippet-maker": "^1.0.8",
+    "snippet-maker": "^1.1.0",
     "toml": "^3.0.0",
     "typescript": "^4.0.3",
     "vsce": "^1.81.1"
