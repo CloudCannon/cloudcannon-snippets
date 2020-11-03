@@ -24,7 +24,7 @@ Features the following snippets (type the text in bold in your editor)
 - **'skeleton' or 'spooky-scary-skeletons'** - Creates a CSS/SASS skeleton
 
 ### Webpack
-- **'react-webpack'** - A webpack starter for React projects
+- **'react-webpack'** - A webpack starter for node importing projects
 - **'webpack-umd' or 'react-webpack-umd'** - A webpack starter compiling to UMD
 <!-- AUTO-GENERATED-CONTENT:END (API) --> 
 

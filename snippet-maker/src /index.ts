@@ -30,7 +30,7 @@ async function run() {
 
     const files = await new Promise<Array<string>>((resolve, reject) =>
       glob(`${srcDir}/**/*.snippet.toml`, (err, files) => {
-        resolve(files);
+        resolve(files.filter((item) => !item.match(/node_modules/g)));
       })
     );
 
@@ -50,7 +50,7 @@ async function run() {
       >)
         if (data.url) {
           // If url is provided, fetch snippet as raw text from URL
-          console.log(`Fetching file from url: ${data.url}...`)
+          console.log(`Fetching file from url: ${data.url}...`);
           const body = await (await fetch(data.url)).text();
           snippetObj[name] = {
             ...data,
@@ -59,7 +59,7 @@ async function run() {
         } else {
           snippetObj[name] = {
             ...data,
-            body: data.body.split("\n"),
+            body: data.body?.split("\n"),
           };
         }
     }
