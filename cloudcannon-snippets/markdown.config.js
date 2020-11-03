@@ -30,7 +30,6 @@ module.exports = {
 
       return Object.entries(categories)
         .map(([key, data]) => {
-          console.log("data", data);
           return (
             `### ${key}\n` +
             data
