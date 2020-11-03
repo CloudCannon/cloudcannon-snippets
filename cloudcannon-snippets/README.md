@@ -44,5 +44,4 @@ If you are happy with the snippet, create a PR for it :).
 
 ## Deploy
 
-* Run `np patch` for a patch
-* Run `npm run deploy`
+* Run `lerna publish patch` for a patch
