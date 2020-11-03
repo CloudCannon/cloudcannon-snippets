@@ -50,6 +50,7 @@ async function run() {
       >)
         if (data.url) {
           // If url is provided, fetch snippet as raw text from URL
+          console.log(`Fetching file from url: ${data.url}...`)
           const body = await (await fetch(data.url)).text();
           snippetObj[name] = {
             ...data,
