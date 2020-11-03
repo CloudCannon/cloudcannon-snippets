@@ -45,3 +45,4 @@ If you are happy with the snippet, create a PR for it :).
 ## Deploy
 
 * Run `lerna publish patch` for a patch
+* Run `cd cloudcannon-snippets && npm run deploy` for a patch

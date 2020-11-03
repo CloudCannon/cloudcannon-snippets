@@ -31,8 +31,10 @@
     "markdown-magic": "^1.0.0",
     "snippet-maker": "^1.1.2",
     "toml": "^3.0.0",
-    "typescript": "^4.0.3",
-    "vsce": "^1.81.1"
+    "typescript": "^4.0.3"
   },
-  "gitHead": "1eb26abc2ad89481410bd01daf4b27a9c50881fa"
+  "gitHead": "1eb26abc2ad89481410bd01daf4b27a9c50881fa",
+  "devDependencies": {
+    "vsce": "^1.81.1"
+  }
 }
