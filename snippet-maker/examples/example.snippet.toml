@@ -49,3 +49,9 @@ body = """
 
   export default ${1:Component}
 """
+
+[url]
+scope = ""
+prefix = ["url-component"]
+description = "URL test"
+url = "https://gist.githubusercontent.com/Robbie-Cook/96be95a2c459844e811bcd2208bb053e/raw/a63ba7beea7fafb2b9d5a653cbc901796c7b8fe4/webpack.config.js"

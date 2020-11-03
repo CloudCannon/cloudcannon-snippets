@@ -5,6 +5,7 @@ import glob from "glob";
 import toml from "toml";
 import fs from "fs";
 import path from "path";
+import fetch from "node-fetch";
 
 const packageName = "snippet-maker";
 
@@ -44,13 +45,22 @@ async function run() {
       const data = fs.readFileSync(file).toString();
       const mytoml = toml.parse(data);
 
-      for (const [name, data] of Object.entries(mytoml)) {
-        (data as any).body = (data as any).body.split("\n");
-
-        snippetObj[name] = {
-          ...(data as any),
-        };
-      }
+      for (const [name, data] of Object.entries(mytoml) as Array<
+        [string, Record<string, any>]
+      >)
+        if (data.url) {
+          // If url is provided, fetch snippet as raw text from URL
+          const body = await (await fetch(data.url)).text();
+          snippetObj[name] = {
+            ...data,
+            body: body.split("\n"),
+          };
+        } else {
+          snippetObj[name] = {
+            ...data,
+            body: data.body.split("\n"),
+          };
+        }
     }
 
     if (!fs.existsSync(outDir)) {
