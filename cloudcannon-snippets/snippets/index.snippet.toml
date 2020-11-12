@@ -23,6 +23,17 @@ body = """
   export default ${1:Component}
 """
 
+[useEffect]
+scope = "typescriptreact"
+prefix = ["useEffect"]
+description = "Creates a useEffect snippet in browser"
+category = "React"
+body = """
+  React.useEffect(() => {
+    
+  }, []);
+"""
+
 [typescript-class]
 scope = "typescript"
 prefix = ["class", "typescript-class"]
