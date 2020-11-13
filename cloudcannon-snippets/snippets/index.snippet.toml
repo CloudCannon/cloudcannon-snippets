@@ -143,10 +143,10 @@ body = """
 prefix = ["react-webpack"]
 description = "A webpack starter for node importing projects"
 category = "Webpack"
-url = "https://gist.githubusercontent.com/Robbie-Cook/96be95a2c459844e811bcd2208bb053e/raw/a63ba7beea7fafb2b9d5a653cbc901796c7b8fe4/webpack.config.js"
+url = "https://gist.githubusercontent.com/Robbie-Cook/96be95a2c459844e811bcd2208bb053e/raw/1b136fc3e1aa8bc68bb8e77e95b6b7ccaf624bee/webpack.config.js"
 
 [webpack-umd]
 prefix = ["webpack-umd", "react-webpack-umd"]
 description = "A webpack starter compiling to UMD"
 category = "Webpack"
-url = "https://gist.githubusercontent.com/Robbie-Cook/96be95a2c459844e811bcd2208bb053e/raw/a63ba7beea7fafb2b9d5a653cbc901796c7b8fe4/webpack-umd.config.js"
+url = "https://gist.githubusercontent.com/Robbie-Cook/30cc6359e72c899d73debe717e905e30/raw/12f1567aed466b45b30894b39e1d9cae2a4ae2a9/webpack-umd.config.js"
