@@ -17,6 +17,7 @@ Features the following snippets (type the text in bold in your editor)
 
 ### Typescript
 - **'class' or 'typescript-class'** - Creates a quick typescript class
+- **'promise'** - A new ES6 promise
 
 ### SASS
 - **'svg-background'** - Creates an svg background image in sass/css
