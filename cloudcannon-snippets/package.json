@@ -8,7 +8,7 @@
   "scripts": {
     "build": "snippet-maker && md-magic --path 'README.md'",
     "test": "echo \"No tests\"",
-    "deploy": "npm run build && vsce publish",
+    "deploy": "vsce publish --yarn",
     "preversion": "npm run build",
     "postpublish": "npm run deploy"
   },
