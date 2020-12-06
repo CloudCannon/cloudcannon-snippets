@@ -2,7 +2,6 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "deploy": "cd cloudcannon-snippets && np && npm run deploy"
   },
   "devDependencies": {
     "lerna": "^3.22.1",
