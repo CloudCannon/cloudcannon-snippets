@@ -1,13 +1,16 @@
 {
   "name": "root",
   "private": true,
-  "scripts": {
+  "scripts": {},
+  "husky": {
+    "precommit": "cd cloudcannon-snippets && npm run build"
   },
   "devDependencies": {
     "lerna": "^3.22.1",
     "magic-memo": "^1.0.3"
   },
   "dependencies": {
+    "husky": "^4.3.5",
     "yargs-parser": "^20.2.1"
   }
 }
