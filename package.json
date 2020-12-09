@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {},
   "husky": {
-    "precommit": "cd cloudcannon-snippets && npm run build"
+    "pre-commit": "cd cloudcannon-snippets && npm run build"
   },
   "devDependencies": {
     "lerna": "^3.22.1",
