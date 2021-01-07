@@ -1,0 +1,8 @@
+[bookshop-ejs-component-import]
+scope = "ejs"
+prefix = ["bookshop-ejs-component-import", "ejs-component"]
+description = "Creates a quick general ejs component"
+category = "bookshop"
+body = """
+	<%- component(${1:name}, { ${2:props} }); %>
+"""

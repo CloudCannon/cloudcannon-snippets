@@ -46,5 +46,13 @@ If you are happy with the snippet, create a PR for it :).
 
 ## Deploy
 
-Simply commit with a message that matches [semantic release](https://github.com/semantic-release/semantic-release). Then check Github Actions. If this succeeds, 
-the extension will be published immediately on the Visual Studio marketplace
+Simply commit with a message that matches [semantic release](https://github.com/semantic-release/semantic-release). 
+
+e.g.
+```bash
+git commit -m "feat: added snippet"
+```
+
+Then check Github Actions. If this succeeds, 
+the extension will be published immediately on the Visual Studio marketplace.
+
