@@ -34,6 +34,7 @@
   },
   "gitHead": "1eb26abc2ad89481410bd01daf4b27a9c50881fa",
   "devDependencies": {
+    "@semantic-release/git": "^9.0.0",
     "vsce": "^1.81.1"
   }
 }
