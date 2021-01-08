@@ -9,8 +9,7 @@
     "build": "snippet-maker && md-magic --path 'README.md'",
     "test": "echo \"No tests\"",
     "deploy": "vsce publish --yarn",
-    "preversion": "npm run build",
-    "postpublish": "npm run deploy"
+    "preversion": "npm run build"
   },
   "engines": {
     "vscode": "^1.49.0"
