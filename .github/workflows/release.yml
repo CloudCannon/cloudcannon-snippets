@@ -23,4 +23,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
-        run: cd cloudcannon-snippets && npm run build && npx semantic-release && cat dist/snippets.code-snippets && npm run deploy
+        run: cd cloudcannon-snippets && npm run build && npx semantic-release && cat package.json && npm run deploy
