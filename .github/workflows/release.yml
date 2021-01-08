@@ -4,8 +4,8 @@ on:
     branches:
       - master
 jobs:
-  release:
-    name: Release CloudCannon Snippets
+  build:
+    name: Build CloudCannon Snippets
     runs-on: ubuntu-18.04
     steps:
       - name: Checkout
@@ -18,11 +18,9 @@ jobs:
           node-version: 12
       - name: Install dependencies
         run: cd cloudcannon-snippets && npm ci
-      - name: Build
-        run: cd cloudcannon-snippets && npm run build
-      - name: Release
+      - name: Build & Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
-        run: cd cloudcannon-snippets && npx semantic-release && npm run deploy
+        run: cd cloudcannon-snippets && npm run build && npx semantic-release && cat dist/snippets.code-snippets && npm run deploy
