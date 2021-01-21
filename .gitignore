@@ -2,3 +2,5 @@ node_modules
 *.vsix
 
 snippet-maker/dist/
+
+cloudcannon-snippets/dist/
