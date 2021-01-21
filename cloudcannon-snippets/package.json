@@ -13,7 +13,7 @@
   },
   "husky": {
     "hooks": {
-      "precommit": "npm run build"
+      "pre-commit": "npm run build"
     }
   },
   "engines": {
