@@ -1,6 +1,6 @@
 {
   "name": "cloudcannon-snippets",
-  "displayName": "Snippets by CloudCannon",
+  "displayName": "CloudCannon Snippets",
   "description": "Some snippets in CloudCannon",
   "version": "0.7.6",
   "icon": "icon.png",
