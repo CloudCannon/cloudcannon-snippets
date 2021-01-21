@@ -1,0 +1,12 @@
+[jest-suite]
+prefix = ["jest-suite"]
+scope = "javascript"
+description = "Creates a quick suite of tests for jest"
+category = "jest"
+body = """
+describe('${1:suiteName}', () => {
+	test('${2:testName}', async () => {
+		
+	});
+});
+"""

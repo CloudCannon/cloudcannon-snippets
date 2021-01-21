@@ -12,7 +12,9 @@
     "preversion": "npm run build"
   },
   "husky": {
-    "precommit": "npm run build"
+    "hooks": {
+      "precommit": "npm run build"
+    }
   },
   "engines": {
     "vscode": "^1.49.0"

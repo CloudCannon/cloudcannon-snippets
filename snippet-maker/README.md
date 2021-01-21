@@ -8,7 +8,7 @@
 
 Run `npm i snippet-maker` in your project.
 
-Create a `.snippets.toml` file in the project.
+Create a `.snippet.toml` file in the project.
 
 Run `npx snippet-maker` in your project.
 
