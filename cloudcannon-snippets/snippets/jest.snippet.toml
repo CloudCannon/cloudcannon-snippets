@@ -5,6 +5,9 @@ description = "Creates a quick suite of tests for jest"
 category = "Jest"
 body = """
 describe('${1:suiteName}', () => {
+	beforeEach(async () => {
+		
+	});
 	test('${2:testName}', async () => {
 		
 	});

@@ -33,7 +33,7 @@ Features the following snippets (type the text in bold in your editor)
 - **'webpack-umd' or 'react-webpack-umd'** - A webpack starter compiling to UMD
 
 ### Jest
-- **'jest-suite'** - Creates a quick suite of tests for jest
+- **'jest-suite' or 'describe'** - Creates a quick suite of tests for jest
 <!-- AUTO-GENERATED-CONTENT:END (API) --> 
 
 ## Usage
