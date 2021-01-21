@@ -10,6 +10,9 @@ Features the following snippets (type the text in bold in your editor)
 
 
 <!-- AUTO-GENERATED-CONTENT:START (API) -->
+### bookshop
+- **'bookshop-ejs-component-import' or 'ejs-component'** - Creates a quick general ejs component
+
 ### React
 - **'react-component'** - Creates a quick general React component
 - **'useEffect'** - Creates a useEffect snippet in browser
@@ -28,6 +31,9 @@ Features the following snippets (type the text in bold in your editor)
 ### Webpack
 - **'react-webpack'** - A webpack starter for node importing projects
 - **'webpack-umd' or 'react-webpack-umd'** - A webpack starter compiling to UMD
+
+### jest
+- **'jest-suite'** - Creates a quick suite of tests for jest
 <!-- AUTO-GENERATED-CONTENT:END (API) --> 
 
 ## Usage
