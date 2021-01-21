@@ -10,7 +10,7 @@ Features the following snippets (type the text in bold in your editor)
 
 
 <!-- AUTO-GENERATED-CONTENT:START (API) -->
-### bookshop
+### Bookshop
 - **'bookshop-ejs-component-import' or 'ejs-component'** - Creates a quick general ejs component
 
 ### React
@@ -32,7 +32,7 @@ Features the following snippets (type the text in bold in your editor)
 - **'react-webpack'** - A webpack starter for node importing projects
 - **'webpack-umd' or 'react-webpack-umd'** - A webpack starter compiling to UMD
 
-### jest
+### Jest
 - **'jest-suite'** - Creates a quick suite of tests for jest
 <!-- AUTO-GENERATED-CONTENT:END (API) --> 
 
