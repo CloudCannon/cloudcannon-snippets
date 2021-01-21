@@ -1,5 +1,5 @@
 [jest-suite]
-prefix = ["jest-suite"]
+prefix = ["jest-suite", "describe"]
 scope = "javascript"
 description = "Creates a quick suite of tests for jest"
 category = "Jest"
