@@ -1,14 +1,14 @@
 [jest-suite]
-prefix = ["jest-suite", "describe"]
+prefix = ["jest-suite", "describe", "jest-describe"]
 scope = "javascript"
 description = "Creates a quick suite of tests for jest"
 category = "Jest"
 body = """
 describe('${1:suiteName}', () => {
-	beforeEach(async () => {
-		
+	afterEach(() => {
+		jest.clearAllMocks();
 	});
-	test('should ${2:testName}', async () => {
+	test('${2:testName}', () => {
 		
 	});
 });
