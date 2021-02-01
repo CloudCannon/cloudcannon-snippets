@@ -8,7 +8,7 @@ describe('${1:suiteName}', () => {
 	beforeEach(async () => {
 		
 	});
-	test('${2:testName}', async () => {
+	test('should ${2:testName}', async () => {
 		
 	});
 });
