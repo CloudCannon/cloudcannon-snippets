@@ -32,6 +32,9 @@ Features the following snippets (type the text in bold in your editor)
 - **'react-webpack'** - A webpack starter for node importing projects
 - **'webpack-umd' or 'react-webpack-umd'** - A webpack starter compiling to UMD
 
+### HTML
+- **'material-icon'** - Insert a new material icon
+
 ### Jest
 - **'jest-suite' or 'describe' or 'jest-describe'** - Creates a quick suite of tests for jest
 <!-- AUTO-GENERATED-CONTENT:END (API) --> 

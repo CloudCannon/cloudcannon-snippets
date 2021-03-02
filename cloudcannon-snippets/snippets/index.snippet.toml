@@ -160,3 +160,12 @@ body = """
   new Promise<${1:type}>((resolve, reject) => {
   });
 """
+
+[materialIcons]
+prefix = ["material-icon"]
+description = "Insert a new material icon"
+category = "HTML"
+scope = ["html", "typescript", "typescriptreact", "javascript"]
+body = """
+  <i class="material-icons">${1:icon-name}</i>
+"""
