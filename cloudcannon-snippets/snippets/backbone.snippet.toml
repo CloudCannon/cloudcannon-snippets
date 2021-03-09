@@ -15,7 +15,7 @@ module.exports = BaseView.extend({
 	},
 
 	render: function () {
-		this.$el.html();
+		this.\$el.html();
 		return this;
 	}
 });
