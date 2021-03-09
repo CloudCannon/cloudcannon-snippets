@@ -10,6 +10,9 @@ Features the following snippets (type the text in bold in your editor)
 
 
 <!-- AUTO-GENERATED-CONTENT:START (API) -->
+### Backbone
+- **'view' or 'backbone-view'** - Creates a quick Backbone view
+
 ### Bookshop
 - **'bookshop-ejs-component-import' or 'ejs-component'** - Creates a quick general ejs component
 
