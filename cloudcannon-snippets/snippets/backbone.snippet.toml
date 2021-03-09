@@ -1,0 +1,22 @@
+[create-view]
+prefix = ["view", "backbone-view"]
+scope = "javascript"
+description = "Creates a quick Backbone view"
+category = "Backbone"
+body = """
+const BaseView = require('Interfaces/views/base-view');
+
+module.exports = BaseView.extend({
+	className: 'c-${1:name}',
+
+	initialize: function (options) {
+		this.options = options;
+		this.render();
+	},
+
+	render: function () {
+		this.$el.html();
+		return this;
+	}
+});
+"""
