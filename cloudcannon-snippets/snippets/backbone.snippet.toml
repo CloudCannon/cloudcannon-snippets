@@ -1,7 +1,7 @@
 [create-view]
-prefix = ["view", "backbone-view"]
+prefix = ["legacy-view", "backbone-legacy-view"]
 scope = "javascript"
-description = "Creates a quick Backbone view"
+description = "Creates a quick legacy Backbone view"
 category = "Backbone"
 body = """
 const BaseView = require('Interfaces/views/base-view');
@@ -19,4 +19,43 @@ module.exports = BaseView.extend({
 		return this;
 	}
 });
+"""
+
+[create-es6-view]
+prefix = ["view", "backbone-view"]
+scope = "javascript"
+description = "Creates a quick Backbone view"
+category = "Backbone"
+body = """
+/* eslint-disable class-methods-use-this */
+import { Model } from 'backbone';
+import BaseView from 'Interfaces/views/base-view';
+
+class ${1:name} extends BaseView {
+	get events() {
+		return {
+		};
+	}
+
+	/**
+   * @param {any} options
+   */
+	initialize(options) {
+		this.options = options;
+		this.className = 'js-controls';
+
+		// this.listenTo();
+
+		this.render();
+	}
+
+
+	render() {
+		this.$el.html(
+		);
+		return this;
+	}
+}
+
+export default ${1:name};
 """

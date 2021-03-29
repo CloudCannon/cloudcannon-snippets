@@ -11,6 +11,7 @@ Features the following snippets (type the text in bold in your editor)
 
 <!-- AUTO-GENERATED-CONTENT:START (API) -->
 ### Backbone
+- **'legacy-view' or 'backbone-legacy-view'** - Creates a quick legacy Backbone view
 - **'view' or 'backbone-view'** - Creates a quick Backbone view
 
 ### Bookshop
