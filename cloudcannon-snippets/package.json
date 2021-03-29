@@ -2,7 +2,7 @@
   "name": "cloudcannon-snippets",
   "displayName": "CloudCannon Snippets",
   "description": "Some snippets in CloudCannon",
-  "version": "0.12.1",
+  "version": "0.13.0",
   "icon": "icon.png",
   "private": true,
   "scripts": {
