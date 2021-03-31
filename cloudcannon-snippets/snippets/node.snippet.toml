@@ -1,0 +1,7 @@
+[node-hash]
+prefix = ["node-hashbang"]
+description = "Creates a hashbang for node"
+category = "javascript"
+body = """
+#!/usr/bin/env node
+"""
